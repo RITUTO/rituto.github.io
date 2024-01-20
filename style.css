@@ -1,12 +1,4 @@
-button {
-    padding: 10px 20px;
-    background-color: #4a90e2;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out
-}
+
 #home {
     background-color: #cae4ff;
     height: 50px;
@@ -106,9 +98,7 @@ button {
 
 }
 
-button:hover {
-    background-color: #3461a4;
-}
+
 #saidoba- {
     margin: -7px;
     background-color: #cae4ff;
@@ -137,15 +127,7 @@ button:hover {
 }
 
 
-#kennsaku {
-    background-color: #8bbaec;
-    height: 30px;
-    border-radius: 5px;
-    background-image: url(https://scratch.mit.edu/images/nav-search-glass.png);
-    background-repeat: no-repeat;
-    background-size: 17px;
-    background-position: 2%;
-}
+
 
 
 p {
@@ -181,4 +163,68 @@ p {
     position: relative;
     top: 15px;
     right: -10px;
+}
+
+
+#nyuuryoku  {
+    background-color: #8bbaec;
+    height: 30px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 2%;
+    
+}
+
+
+
+
+#search {
+    margin-top: 7px;
+    border-radius: 5px; 
+    background-color: #8bbaec;
+    display: inline-block;    
+
+}
+#searcharea {
+    background-color: #8bbaec;
+    display: inline-block;    
+    height: 40px;
+    width: 60px; 
+    border-radius: 5px; 
+}
+
+#search input {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0;
+    background-color: #8bbaec;
+    display: inline-block;    
+    font-size: 14px; border-radius: 10px; 
+    ;
+
+}
+
+#search input::placeholder {
+    color: white;
+}
+
+#search input:focus-visible {
+    outline: 0;
+    border: 0;
+    
+}
+
+#search button {
+    display: inline-block;    
+    border-radius: 5px; 
+    margin-top: -34px;
+    background-color: #8bbaec;
+    border: none;
+    background-image: url(https://scratch.mit.edu/images/nav-search-glass.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: 50%;
+    height: 40px;
+    width: 40px;
 }
