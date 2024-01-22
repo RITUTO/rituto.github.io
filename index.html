@@ -43,7 +43,7 @@
 
         <br>
         <span>スクラッチシーズンidscratchattachなどで使う用スクラッチで開いてコンソロールに貼り付けて下さい</span><br>
-        <textarea id="tex">var cookie = document.cookie.split(";");const obj = {};  cookie.map((item) => {const elem = item.split("=");const key = elem[0].trim();const val = decodeURIComponent(elem[1]);obj[key] = val; });;const id = obj.scratchsessionsid;alert(id == undefined ? "クラウド変数を使ったことないまたはnewスクラッチャーなため使えません" : id+"こちらをコピペしてください");</textarea>
+        <textarea id="tex">var cookie = document.cookie.split(";");const obj = {};  cookie.map((item) => {const elem = item.split("=");const key = elem[0].trim();const val = decodeURIComponent(elem[1]);obj[key] = val; });const id = obj.scratchsessionsid;alert(id == undefined ? "クラウド変数を使ったことないまたはnewスクラッチャーなため使えません" : id+"こちらをコピペしてください");</textarea>
     </div>
     <div id="rireli">
         <h1>履歴</h1>
